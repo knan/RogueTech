@@ -68,33 +68,6 @@
       "targetingData": {
         "effectTriggerType": "Passive",
         "effectTargetType": "Creator",
-        "effectTargetsCreator": true,
-        "showInTargetPreview": false,
-        "showInStatusPanel": false
-      },
-      "effectType": "StatisticEffect",
-      "nature": "Buff",
-      "Description": {
-        "Id": "StatusEffect-GyroDefMelee",
-        "Name": "Gyro Dreadnought: Decreased Damage Taken",
-        "Details": "All incoming Melee damage reduced extra Melee Damage.",
-        "Icon": "uixSvgIcon_mwFury"
-      },
-      "statisticData": {
-        "statName": "DamageReductionMultiplierAll",
-        "operation": "Float_Multiply",
-        "modValue": "0.85",
-        "modType": "System.Single"
-      }
-    },
-    {
-      "durationData": {
-        "duration": -1,
-        "stackLimit": -1
-      },
-      "targetingData": {
-        "effectTriggerType": "Passive",
-        "effectTargetType": "Creator",
         "showInTargetPreview": false,
         "showInStatusPanel": false
       },
